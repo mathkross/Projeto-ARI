@@ -13,11 +13,11 @@
         <form id="register">
             <div class="box-email">
                 <label for="email">E-mail</label>   
-                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-min-lenght="3">
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-min-lenght="3" data-required>
             </div>
             <div class="half-box spacing">
                 <label for="name">Nome</label>   
-                <input type="text" name="name" id="name" placeholder="Digite seu primeiro nome">
+                <input type="text" name="name" id="name" placeholder="Digite seu primeiro nome" data-max-lenght="16">
             </div>
             <div class="half-box ">
                 <label for="name">Sobrenome</label>   
@@ -42,7 +42,7 @@
     </div>
     <p class="error-validation-template"></p>
 </body>
-<script src="index.js">
+<script src="script.js">
     
 </script>
 </html>
