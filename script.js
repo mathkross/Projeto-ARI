@@ -9,8 +9,11 @@ class Validador {
             'data-required',
             'data-equal',
             'data-password-validate',
+
         ]
     }
+
+    
 
 
     validate(form) {
